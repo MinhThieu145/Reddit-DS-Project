@@ -90,11 +90,14 @@ Eventhough the number of people who are gold membership or mod is quite small:
 ![image](https://user-images.githubusercontent.com/88282475/196009827-dbddbc5c-90d5-48d4-9b4c-e968716be2aa.png)
 
 ### Models
-Finally, I implemented a XGBoost model to see whether it can predict the score, base on the give information or not. But the result was quite disapointing
+Finally, I implemented a XGBoost model to see whether it can predict the score, base on the give information or not. It seems like XGBoost model has overfit, since I have an extremely high accuracy score. 
 ![image](https://user-images.githubusercontent.com/88282475/196009889-999afe99-2382-4043-8997-d7293d174f03.png)
+  
+Here are the results:
+![image](https://user-images.githubusercontent.com/88282475/196010638-78a1dd0f-837c-4a0a-addd-692366ba4da6.png)
 
-
-
+Eventhough it seems like there is little connection between the gold member status and score, it seems to be the most importance feature to determine score:
+![image](https://user-images.githubusercontent.com/88282475/196010806-28c68797-3d44-4ea4-8ddc-ec1fe07a5686.png)
 
 
 
