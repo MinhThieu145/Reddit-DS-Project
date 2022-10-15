@@ -58,6 +58,41 @@ I decided to look at the trend of the score overtime, just to see if there anyth
 ![image](https://user-images.githubusercontent.com/88282475/196006100-5df6ce6e-3f8d-4fa8-8055-f51a2d532dcb.png)
 
 ## Fun/Trivia:
+Trivia is the one with the highest mean score, so I first see its distribution:  
+
+![image](https://user-images.githubusercontent.com/88282475/196007286-f97ecd1a-1c79-4cc1-b419-f4e583cfda35.png)
+
+The majority of posts still have score below 500, although the distribution varied more compare to education flair  
+  
+Next, I move on to plot the distribution of upvote ratio:
+![image](https://user-images.githubusercontent.com/88282475/196007647-56b0e6ca-ee66-460a-88c9-e6300ee976aa.png)  
+  
+It's overwhelmly positive, with 40% of posts have only upvote. 
+
+I move on to graph the relationship between score and the number of comments
+![image](https://user-images.githubusercontent.com/88282475/196009562-2dda59b7-65b9-4e8e-ad0e-8b430e4190e6.png)
+  
+It's can be seen that they follow a certain pattern, eventhough the comment is lower than the score (for sure, since it's much easier to click upvote, compare to actually comment. Here is a table to confirm their relation:
+  
+  ![image](https://user-images.githubusercontent.com/88282475/196009617-5e2eae14-b868-4670-86b1-57fd0ab6ba09.png)
+  
+## Authors and their impact
+After playing with the top 1000 posts, I wonder whether the number of comments and score in general have anything to do with the author. So I scrap another dataset, this time with authors and some of their information, it looks like this:
+![image](https://user-images.githubusercontent.com/88282475/196009691-1bacce1b-d92d-43fb-95da-5ea686d7134e.png)  
+  
+The number of karma: represent how liked the authors are within the community
+  
+First I try the relation between columns in general:
+![image](https://user-images.githubusercontent.com/88282475/196009718-b5c3e730-d081-4c31-8423-e5098fbccb6a.png)
+  
+It seems like the score and number of comments and upvote_ratio have little relation with the author, whether he's a mod or gold member, or the number of karma.
+Eventhough the number of people who are gold membership or mod is quite small:
+![image](https://user-images.githubusercontent.com/88282475/196009827-dbddbc5c-90d5-48d4-9b4c-e968716be2aa.png)
+
+### Models
+Finally, I implemented a XGBoost model to see whether it can predict the score, base on the give information or not. But the result was quite disapointing
+![image](https://user-images.githubusercontent.com/88282475/196009889-999afe99-2382-4043-8997-d7293d174f03.png)
+
 
 
 
