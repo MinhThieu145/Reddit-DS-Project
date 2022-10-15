@@ -2,6 +2,10 @@
 **Scraping, illustrating and predicting data from reddit for a school assignment.**   
 So, I have a writing assignment for my class that asks me to analyze and write an analysis about a virtual community of my choice, so I did this analysis to gain a little more insights for my assignment.
 
+#Links:
+- Notebook: (kaggle notebook with dataset already included): https://www.kaggle.com/code/th1402/reddit-notebook
+- Dataset: https://www.kaggle.com/datasets/th1402/data-science-reddit-community
+
 # A few guiding questions
 
 
