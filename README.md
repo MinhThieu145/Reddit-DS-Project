@@ -100,5 +100,6 @@ Finally, I implemented a XGBoost model to see whether it can predict the score, 
 Here are the results:
 ![image](https://user-images.githubusercontent.com/88282475/196010638-78a1dd0f-837c-4a0a-addd-692366ba4da6.png)
 
-Eventhough it seems like there is little connection between the gold member status and score, it seems to be the most importance feature to determine score:
+Eventhough it seems like there is little connection between the gold member status and score, it seems to be the most importance feature to determine score: 
+  
 ![image](https://user-images.githubusercontent.com/88282475/196010806-28c68797-3d44-4ea4-8ddc-ec1fe07a5686.png)
